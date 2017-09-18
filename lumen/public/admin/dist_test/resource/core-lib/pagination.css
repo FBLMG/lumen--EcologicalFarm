@@ -1,0 +1,43 @@
+.ui-pagination {
+}
+
+.ui-pagination > a {
+	display: inline-block;
+	padding: 6px 9px;
+	line-height: 12px;
+	color: #000;
+	font-size: 12px;
+	border: 1px solid #dddddd;
+	margin: 0 2px;
+}
+
+.ui-pagination > a.hide {
+	display: none;
+}
+
+.ui-pagination > a.on,
+.ui-pagination > a:hover {
+	color: #fff;
+	border: 1px solid #00a5ed;
+	background: #00a5ed;
+}
+
+.ui-pagination > a.stat {
+	padding: 4px 9px;
+}
+
+.ui-pagination > a.stat:hover {
+	color: #000;
+	border: 1px solid #dddddd;
+	background: #ffffff;
+}
+
+.ui-pagination > a.stat > input {
+	margin: 0 3px 0 0;
+	padding: 0;
+	line-height: 14px;
+	height: 14px;
+	border: 1px solid #dddddd;
+	width: 15px;
+	text-align: center;
+}

@@ -1,0 +1,15 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #f0f0f0;
+	font-family: Tahoma, Arial, Roboto, ”Droid Sans”, ”Helvetica Neue”, ”Droid Sans Fallback”, ”Heiti SC”, sans-self;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:active {
+	color: #666666;
+}

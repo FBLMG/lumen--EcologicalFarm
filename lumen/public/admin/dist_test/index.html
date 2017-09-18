@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8"/>
+	<title>徐家庄小程序管理系统</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Lib-->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/umeditor/themes/default/css/umeditor.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/select2/select2.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/pikaday.css?v=1505700235056">
+
+	<!--Core-->
+	<!--build:css http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/css/core.css?v=1505700235056 -->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/core.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/msg.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/page.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core-lib/upload-image.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core-lib/upload-audio.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core-lib/upload-pem.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core-lib/pagination.css?v=1505700235056">
+	<!--/build-->
+
+	<!--Page-->
+	<!--build:css http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/css/page.css?v=1505700235056 -->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/css/rewrite.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/css/layout.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/css/ui.css?v=1505700235056">
+
+	<!--login-->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/login/login.css?v=1505700235056">
+
+	<!-- platform -->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/farm/farm-list.css?v=1505700235056">
+
+	<!--system/cache-->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/cache/clean_cache.css?v=1505700235056">
+	<!--system/variable-->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/variable/variable_list.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/variable/variable_save.css?v=1505700235056">
+	<!--system/admin-->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/admin/admin-list.css?v=1505700235056">
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/admin/admin-save.css?v=1505700235056">
+	<!--system/total-->
+	<link rel="stylesheet" type="text/css" href="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/total/total_list.css?v=1505700235056">
+	<!--/build-->
+</head>
+<body>
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+	your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!--Conf-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/conf/config.js?v=1505700235056"></script>
+
+<!--Lib-->
+<!--[if lt IE 9]>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/es5-shim.js"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/json3.js"></script>
+<![endif]-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/template.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/jquery.min.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/umeditor/umeditor.config.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/umeditor/umeditor.min.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/umeditor/lang/zh-cn/zh-cn.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/select2/select2.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/lib/pikaday.js?v=1505700235056"></script>
+
+<!--Core-->
+<!--build:js http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/js/core.js?v=1505700235056 -->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/wk.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/cache.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/cookie.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/date.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/device.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/img.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/aud.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/log.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/msg.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/page.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core/upload.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core-lib/upload-image.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core-lib/upload-audio.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core-lib/upload-pem.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/core-lib/pagination.js?v=1505700235056"></script>
+<!--/build-->
+
+<!--Page-->
+<!--build:js http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/js/page.js?v=1505700235056 -->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/js/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/js/common.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/js/helper.js?v=1505700235056"></script>
+
+<!-- login ------------------------------------------------------------------------------------------------------------>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/login/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/login/login.js?v=1505700235056"></script>
+
+<!-- platform --------------------------------------------------------------------------------------------------------->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/menu.js?v=1505700235056"></script>
+<!--platform/farm-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/farm/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/farm/farm-list.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/farm/farm-save.js?v=1505700235056"></script>
+<!--platform/news-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/news/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/news/news-list.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/news/news-save.js?v=1505700235056"></script>
+<!--platform/product-root-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/product-root/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/product-root/product-root-list.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/product-root/product-root-save.js?v=1505700235056"></script>
+<!--platform/area-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/area/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/area/high-area-list.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/area/high-area-save.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/area/low-area-list.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/area/low-area-save.js?v=1505700235056"></script>
+<!--platform/users-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/users/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/users/users-list.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/platform/users/users-msg.js?v=1505700235056"></script>
+
+<!-- system ----------------------------------------------------------------------------------------------------------->
+<!--system/cache-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/cache/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/cache/clean_cache.js?v=1505700235056"></script>
+<!--system/variable-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/variable/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/variable/variable_list.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/variable/variable_save.js?v=1505700235056"></script>
+<!--system/admin-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/admin/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/admin/admin-list.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/admin/admin-save.js?v=1505700235056"></script>
+<!--system/total-->
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/total/api.js?v=1505700235056"></script>
+<script src="http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/page/system/total/total_list.js?v=1505700235056"></script>
+<!--/build-->
+
+<!--HTML-->
+<div class="layout-body">
+	<div id="layout-header" class="layout-header">
+		<div class="header">
+			<div class="logo" style="font-size: 28px;font-weight: bolder;padding-left: 45px;">
+				徐家庄小程序管理系统
+			</div>
+			<div class="menu">
+				<div class="menubox">
+					<a class="setting ui-iconpng" onclick="$layout.header.setting(event, this)">设置</a>
+				</div>
+				<div class="dropbox">
+					<ul class="ui-dropdown-menu">
+						<li class="divide"></li>
+						<li><a onclick="$layout.header.exit()">退出</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="cr"></div>
+		</div>
+	</div>
+	<div id="layout-container" class="layout-container">
+		<div id="layout-sidebar-left" class="layout-sidebar-left"></div>
+		<div id="layout-app" class="layout-app"></div>
+	</div>
+	<div id="layout-footer" class="layout-footer">&copy;Copyright 2017 徐家庄</div>
+</div>
+
+<!--Root-->
+<script>
+	createApp();
+</script>
+
+</body>
+</html>

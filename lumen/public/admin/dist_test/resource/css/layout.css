@@ -1,0 +1,318 @@
+html, body {
+	background: #ffffff;
+}
+
+body {
+	color: #555;
+	font-size: 14px;
+	overflow-y: scroll;
+}
+
+a {
+	color: #00a5ed;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover, a:focus {
+	color: #00a5ed;
+	text-decoration: none
+}
+
+ul, ol, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.layout-body {
+	height: 100%;
+}
+/* ----------       头部导航栏样式 [[      ---------- */
+
+.layout-header {
+	width: 100%;
+	height: 60px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #ddd;
+}
+
+.layout-header > .header {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.layout-header > .header > .cr {
+	clear: both;
+	display: block;
+	line-height: 0;
+	font-size: 0;
+	height: 0;
+}
+
+.layout-header > .header > .logo {
+	float: left;
+	min-width: 300px;
+	height: 100%;
+	line-height: 60px;
+	overflow: hidden;
+	font-size: 18px;
+	background-position: -187px -106px;
+}
+
+.layout-header > .header > .link {
+	float: left;
+	margin-left: 100px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.layout-header > .header > .link > a {
+	display: inline-block;
+	height: 58px;
+	line-height: 58px;
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+
+.layout-header > .header > .link > a > span {
+	position: relative;
+	top: 7px;
+}
+
+.layout-header > .header > .link > a:hover,
+.layout-header > .header > .link > a.on {
+	color: #ff5000;
+	border-bottom: 2px solid #ff5000;
+}
+
+.layout-header > .header > .menu {
+	float: right;
+	height: 100%;
+	position: relative;
+}
+
+.layout-header > .header > .menu > .menubox > a,
+.layout-header > .header > .menu > .menubox > span {
+	display: inline-block;
+	line-height: 75px;
+	color: #00a5ed;
+}
+
+.layout-header > .header > .menu > .menubox > a.setting {
+	padding-right: 14px;
+	background-position: -28px -26px;
+}
+
+.layout-header > .header > .menu > .dropbox {
+	position: absolute;
+	top: 55px;
+	right: 0;
+	z-index: 99;
+	background: #fff;
+	display: none;
+}
+
+/* ----------       中间栏样式 ]]      ---------- */
+.layout-container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+.layout-container > .layout-sidebar-left {
+	overflow-y: auto;
+	float: left;
+	position: absolute;
+	width: 250px;
+	height: 100%;
+	padding-top: 30px;
+	background-color: #eee;
+}
+
+.layout-container > .layout-sidebar-left > .item {
+
+}
+
+.layout-container > .layout-sidebar-left > .item > .txt {
+	height: 30px;
+	margin-left: 50px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #898989;
+	cursor: pointer;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu {
+
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li {
+	display: block;
+	min-height: 40px;
+	margin-top: 5px;
+	line-height: 40px;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li.on {
+	background-color: #005299;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li:hover,
+.layout-container > .layout-sidebar-left > .item > .menu > li:focus {
+	background-color: #0081cc;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li > a {
+	display: block;
+	margin-left: 75px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li.on > a,
+.layout-container > .layout-sidebar-left > .item > .menu > li:hover > a,
+.layout-container > .layout-sidebar-left > .item > .menu > li:focus > a {
+	color: #fff;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li.no-bg {
+	background-color: #eee;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-txt {
+	margin-top: 5px;
+	padding-left: 75px;
+	font-weight: bold;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-txt-on,
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-txt:focus,
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-txt:hover {
+	color: #fff;
+	background-color: #005299;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-menu {
+	line-height: 30px;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-menu > li > a {
+	display: block;
+	margin-top: 5px;
+	padding-left: 100px;
+	font-size: 12px;
+	color: #333;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-menu > li > .ui-btn {
+	display: inline-block;
+	width: 100px;
+	margin-left: 100px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #fff;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-menu > li.on > a {
+	color: #fff;
+	background-color: #005299;
+}
+
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-menu > li > a:hover,
+.layout-container > .layout-sidebar-left > .item > .menu > li > .sub-menu > li > a:focus {
+	color: #fff;
+	background-color: #0081cc;
+}
+
+.layout-container > .layout-app {
+	/*width: 1000px;*/
+	margin-left: 270px;
+	min-height: 600px;
+	padding: 30px 0;
+	margin-right: 20px;
+}
+
+/* ----------       底部相关样式 [[       ---------- */
+.layout-footer {
+	z-index: 9999;
+	height: 30px;
+	background: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	line-height: 30px;
+	text-align: center;
+}
+
+/* ---------------------------------------------------------------------- */
+/* 页面布局 */
+
+.page-view {
+	overflow: hidden;
+}
+
+.page-view > .page-left {
+	display: none;
+	float: left;
+	width: 110px;
+}
+
+.page-view > .page-right {
+	float: left;
+	/*width: 850px;*/
+}
+
+.page-view > .page-right > .page-nav {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.page-view > .page-right > .page-nav > .left {
+	float: left;
+}
+
+.page-view > .page-right > .page-nav > .right {
+	float: right;
+}
+
+.page-view > .page-right > .page-table {
+	margin-bottom: 15px;
+}
+
+.page-view > .page-right > .page-btns {
+	overflow: hidden;
+}
+
+.page-view > .page-right > .page-btns > .left {
+	float: left;
+	font-size: 0;
+	line-height: 0;
+}
+
+.page-view > .page-right > .page-btns > .left > a {
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+.page-view > .page-right > .page-btns > .right {
+	float: right;
+}
+
+.page-empty,
+.page-loading {
+	line-height: 200px;
+	font-size: 14px;
+	text-align: center;
+}

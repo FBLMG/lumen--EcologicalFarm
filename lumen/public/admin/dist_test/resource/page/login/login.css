@@ -1,0 +1,145 @@
+#login {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 100%;
+	height: 800px;
+}
+
+#login .box {
+	width: 360px;
+	margin: 82px auto 0;
+	background-color: #fff
+}
+
+#login .box .header {
+	height: 61px;
+}
+
+#login .box .header > .logo {
+	float: left;
+	width: 150px;
+	height: 100%;
+	background-position: -168px -92px;
+}
+
+#login .box .header > .logo > h1 {
+	text-align: center;
+	margin: 0;
+	line-height: 66px;
+}
+
+#login .box .header > .desc {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 24px;
+	border-left: 2px solid #e0e0e0;
+	padding-left: 15px;
+}
+
+#login .box .container {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border-top: 2px solid #dcdcdc;
+	border-bottom: 2px solid #dcdcdc;
+	overflow: hidden;
+}
+
+#login .box .container .login-box {
+	float: left;
+	width: 338px;
+}
+
+#login .login-box > .item {
+	overflow: hidden;
+	padding-bottom: 20px;
+
+}
+
+#login .login-box > .item:last-child {
+	padding-bottom: 21px;
+}
+
+#login .login-box > .item > .left {
+	width: 86px;
+	float: left;
+	text-align: right;
+}
+
+#login .login-box > .item > .right {
+	float: right;
+	padding-left: 15px;
+	width: 232px;
+	overflow: hidden;
+	padding-right: 5px;
+}
+
+#login .login-box > .item > .right > .username {
+	width: 100%;
+}
+
+#login .login-box > .item > .right > .pwd {
+	width: 100%;
+}
+
+#login .login-box > .item > .right > .checkcode {
+	width: 122px;
+}
+
+#login .login-box > .item > .right > .checkcode-img {
+	width: 96px;
+	height: 28px;
+	float: right;
+}
+
+#login .box .container .logo {
+	float: right;
+	margin-top: 50px;
+	margin-right: 60px;
+	width: 110px;
+	height: 160px;
+	background-position: -54px -106px;
+}
+
+#login .box .footer {
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	color: #a0a0a0;
+}
+
+#login .pwd-box {
+
+}
+
+#login .pwd-box .l {
+	float: left;
+}
+
+#login .pwd-box .l > .txt {
+
+}
+
+#login .pwd-box .r {
+	float: right;
+}
+
+#login .pwd-box .r > .forget-pwd {
+	color: #9a9a9a;
+}
+
+#login .ui-btn:hover {
+	background: #0e69b8;
+}
+
+#login .ui-btn {
+	width: 210px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	background: #0077dd;
+	border: 1px solid #0e69b8;
+	color: #FFFFFF;
+	-webkit-appearance: none;
+}

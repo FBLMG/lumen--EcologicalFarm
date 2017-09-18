@@ -1,0 +1,55 @@
+/* --------------------     重写框架的样式 [[           -------------------- */
+.page-root {
+	background: #fff;
+}
+
+.msg_alert,
+.msg_loading,
+.msg_confirm {
+	z-index: 1001;
+	background: rgba(0, 0, 0, .5);
+}
+
+.msg_alert > .box,
+.msg_confirm > .box {
+	border-radius: 5px;
+}
+
+.msg_alert > .box,
+.msg_confirm > .box {
+	margin-top: 200px;
+}
+
+/* --------------------     重写框架的样式 ]]           -------------------- */
+
+.edui-modal {
+	top: 20%;
+}
+
+.edui-modal-backdrop {
+	opacity: 0;
+}
+
+.edui-container {
+	box-shadow: none;
+}
+
+.edui-container .edui-toolbar {
+	box-shadow: none;
+}
+
+.edui-toolbar .edui-btn-toolbar {
+	line-height: 12px;
+}
+
+.edui-combobox .edui-button-label {
+	padding: 0;
+}
+
+.edui-btn-toolbar .edui-btn {
+	margin-bottom: 3px;
+}
+
+.help {
+	font-size: 12px;
+}

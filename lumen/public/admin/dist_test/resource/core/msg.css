@@ -1,0 +1,104 @@
+.msg_alert,
+.msg_loading,
+.msg_confirm,
+.msg_frame {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	z-index: 19;
+}
+
+.msg_alert > .box,
+.msg_confirm > .box,
+.msg_frame > .box {
+	display: inline-block;
+	min-width: 200px;
+	max-width: 80%;
+	margin-top: 50%;
+	background: #ffffff;
+	font-size: 16px;
+	overflow: hidden;
+	box-shadow: #cccccc 0 0 20px;
+	position: relative;
+}
+
+.msg_alert > .box > .close,
+.msg_confirm > .box > .close,
+.msg_frame > .box > .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 44px;
+	height: 44px;
+	font-size: 20px;
+	line-height: 44px;
+	display: none;
+}
+
+.msg_alert > .box > .close:hover,
+.msg_confirm > .box > .close:hover,
+.msg_frame > .box > .close:hover {
+	background: #f1f1f1;
+}
+
+.msg_alert > .box > .title,
+.msg_confirm > .box > .title,
+.msg_frame > .box > .title {
+	display: inline-block;
+	line-height: 1.6em;
+	padding: 15px;
+}
+
+.msg_alert > .box > .button > a {
+	display: block;
+	line-height: 44px;
+	border-top: 1px #e3e3e3 solid;
+	color: #45aeff;
+}
+
+.msg_alert > .box > .button > a:hover {
+	background: #f0f0f0;
+}
+
+.msg_loading > .title {
+	display: inline-block;
+	min-width: 100px;
+	max-width: 80%;
+	margin-top: 300px;
+	background: #ffffff;
+	font-size: 13px;
+	padding: 10px;
+	box-shadow: #cccccc 0 0 20px;
+}
+
+.msg_confirm > .box > .button {
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+
+.msg_confirm > .box > .button > a {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	line-height: 46px;
+	border-top: 1px #e3e3e3 solid;
+	color: #45aeff;
+	font-size: 16px;
+}
+
+.msg_confirm > .box > .button > a:active {
+	background: #e3e3e3;
+}
+
+.msg_frame > .box {
+	margin-top: 5%;
+}
+
+.msg_frame > .box > .close {
+	display: block;
+}

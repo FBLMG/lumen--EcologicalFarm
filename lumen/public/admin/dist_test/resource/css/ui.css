@@ -1,0 +1,706 @@
+/* ---------------------------------------------------------------------- */
+/* 全局图标属性 */
+
+.ui-iconpng {
+	background-image: url("http://customer-xujiazhuang.ilife86.com/admin/dist_test/resource/img/iconpng.png");
+	background-repeat: no-repeat;
+	background-size: 1024px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* 文字溢出处理 */
+
+.ui-ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/* ---------------------------------------------------------------------- */
+/* 左右布局 */
+
+.ui-layout-lr {
+	overflow: hidden;
+}
+
+.ui-layout-lr > .ui-left {
+	float: left;
+}
+
+.ui-layout-lr > .ui-right {
+	float: right;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Form */
+
+.ui-input {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	width: 128px;
+	height: 28px;
+	font-size: 14px;
+	text-indent: 8px;
+	margin: 0;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+.ui-input-money {
+	background-position: -562px -50px;
+	text-indent: 36px;
+}
+
+.ui-checkbox {
+	margin: 0 5px 0 0;
+	padding: 0;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+}
+
+.ui-radio {
+	margin: 0 5px 0 0;
+	padding: 0;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+}
+
+.ui-select {
+	margin: 0;
+	padding: 3px 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	height: 30px;
+	line-height: 24px;
+}
+
+.ui-textarea {
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	font-size: 14px;
+	min-height: 50px;
+	color: #a1a1a1;
+	-webkit-appearance: none;
+	resize: none;
+}
+
+.edui-editor-body .ui-textarea {
+	min-height: 200px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Form */
+
+.ui-form1 {
+}
+
+.ui-form1 > .item {
+	overflow: hidden;
+	background: #f8f8f8;
+}
+
+.ui-form1 > .item > .left {
+	float: left;
+	width: 106px;
+	border-top: 2px solid #ffffff;
+}
+
+.ui-form1 > .item > .left > .til {
+	padding-top: 30px;
+	padding-left: 23px;
+	font-size: 14px;
+	color: #000;
+}
+
+.ui-form1 > .item > .right {
+	float: right;
+	width: 742px;
+	border-left: 2px solid #ffffff;
+	border-top: 2px solid #ffffff;
+}
+
+.ui-form1 > .item > .right > .box {
+	padding: 27px 23px 10px 23px;
+}
+
+.ui-form1 > .item > .right > .box > .vo {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .l {
+	float: left;
+	width: 110px;
+	text-align: right;
+	font-size: 12px;
+	color: #000;
+	line-height: 30px;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .l > .required {
+	color: red;
+	margin-right: 3px;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .l > .help {
+	display: block;
+	line-height: 100%;
+	color: #a0a0a0;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .r {
+	float: left;
+	font-size: 0;
+	color: #000;
+	line-height: 30px;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .r > * {
+	font-size: 12px;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .r > br {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	height: 20px;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .r > .inte {
+	margin-right: 10px;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .r > .intemax {
+	margin-right: 40px;
+}
+
+.ui-form1 > .item > .right > .box > .vo > .r > .help {
+	display: block;
+	width: 300px;
+	line-height: 20px;
+	color: #a0a0a0;
+	margin-top: 4px;
+}
+
+.ui-form2 {
+}
+
+.ui-form2 > .box {
+	padding: 27px 23px 10px 23px;
+	margin-bottom: 10px;
+	background: #f8f8f8;
+}
+
+.ui-form2 > .box > .vo {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.ui-form2 > .box > .vo > .l {
+	float: left;
+	width: 110px;
+	text-align: right;
+	font-size: 12px;
+	color: #000;
+	line-height: 30px;
+}
+
+.ui-form2 > .box > .vo > .l > .required {
+	color: red;
+	margin-right: 3px;
+}
+
+.ui-form2 > .box > .vo > .l > .help {
+	display: block;
+	line-height: 100%;
+	color: #a0a0a0;
+}
+
+.ui-form2 > .box > .vo > .r {
+	float: left;
+	width: 694px;
+	font-size: 0;
+	color: #000;
+}
+
+.ui-form2 > .box > .vo > .r > * {
+}
+
+.ui-form2 > .box > .vo > .r > br {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	height: 20px;
+}
+
+.ui-form2 > .box > .vo > .r > .inte {
+	margin-right: 10px;
+}
+
+.ui-form2 > .box > .vo > .r > .intemax {
+	margin-right: 40px;
+}
+
+.ui-form2 > .box > .vo > .r > .help {
+	display: block;
+	width: 300px;
+	line-height: 20px;
+	color: #a0a0a0;
+	margin-top: 4px;
+}
+
+.ui-form2 > .btn {
+	background: #ffffcc;
+	padding: 7px 7px 7px 133px;
+}
+
+.ui-form2 > .btn > a {
+	line-height: 34px;
+	height: 34px;
+	padding: 0 20px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Tabs */
+
+.ui-tabs {
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+}
+
+.ui-tabs > .ui-tabs-item {
+	float: left;
+}
+
+.ui-tabs > .ui-tabs-item > a {
+	display: block;
+	background: #f8f8f8;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	text-align: center;
+	line-height: 38px;
+	color: #000;
+	font-size: 14px;
+}
+
+.ui-tabs > .ui-tabs-item > a:hover {
+	background: #ffffff;
+	border-bottom: 1px solid #dddddd;
+}
+
+.ui-tabs > .ui-tabs-item > a.on {
+	background: #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+.ui-tabs1 {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	border-left: 1px solid #dddddd;
+}
+
+.ui-tabs1 > .line {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background: #dddddd;
+}
+
+.ui-tabs1 > .item {
+	float: left;
+}
+
+.ui-tabs1 > .item > a {
+	display: block;
+	padding: 12px 15px 11px 15px;
+	border: 1px solid #dddddd;
+	border-left: none;
+	font-size: 12px;
+	line-height: 12px;
+	color: #000;
+	background: #f8f8f8;
+}
+
+.ui-tabs1 > .item > a:hover {
+	background: #ffffff;
+}
+
+.ui-tabs1 > .item > a.on {
+	background: #ffffff;
+	border-bottom: 1px solid #ffffff;
+	position: relative;
+	z-index: 1;
+}
+
+.ui-tabs1 > .right {
+	float: right;
+	font-size: 12px;
+	line-height: 36px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* 导航标题 */
+
+.ui-nav-til {
+	font-size: 14px;
+	color: #000000;
+}
+
+/* ---------------------------------------------------------------------- */
+/* 表格样式1 */
+
+.ui-table {
+	border: 1px solid #dddddd;
+	border-bottom: none;
+	background: #ffffff;
+}
+
+.ui-table > .ui-th,
+.ui-table > .ui-tr {
+	overflow: hidden;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.ui-table > .ui-th {
+	background: #f8f8f8;
+}
+
+.ui-table > .ui-th > .ui-td,
+.ui-table > .ui-tr > .ui-td {
+	float: left;
+	overflow: hidden;
+}
+
+.ui-table > .ui-th > .ui-td > .ui-con,
+.ui-table > .ui-tr > .ui-td > .ui-con {
+	padding: 10px;
+	font-size: 12px;
+	line-height: 1.6em;
+	text-align: left;
+	color: #000000;
+}
+
+.ui-table > .ui-th > .ui-td > .ui-con {
+	padding: 13px 10px;
+}
+
+.ui-table > .ui-th > .ui-td > .ui-cen,
+.ui-table > .ui-tr > .ui-td > .ui-cen {
+	text-align: center;
+}
+
+.ui-table > .ui-th > .ui-td > .ui-l16,
+.ui-table > .ui-tr > .ui-td > .ui-l16 {
+	line-height: 1.6em;
+}
+
+.ui-table > .ui-th > .ui-td > .ui-img,
+.ui-table > .ui-tr > .ui-td > .ui-img {
+	font-size: 0;
+	line-height: 0;
+}
+
+.ui-table-hover > .ui-tr:hover {
+	background: #f8f8f8;
+}
+
+.ui-table-hover > .ui-tr-nohover:hover {
+	background: none;
+}
+
+.ui-table-hover > .ui-tr-status1 {
+}
+
+.ui-table-hover > .ui-tr-status2 {
+}
+
+.ui-table-hover > .ui-tr-status3 {
+}
+
+.ui-table-hover > .ui-tr-status4 {
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/* 主内容区域的layout结构 */
+
+/*---------------------------------------- 按钮样式 [[ ----------------------------------------*/
+
+.ui-btn {
+	display: inline-block;
+	border-radius: 2px;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 12px;
+	cursor: pointer;
+	color: #333;
+	background: #f8f8f8;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 12px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.ui-btn-unable {
+	color: #a1a1a1 !important;
+}
+
+.ui-btn-unable:hover, .ui-btn-unable:focus {
+	background: #f8f8f8 !important;
+	border: 1px solid #ddd !important;
+}
+
+.ui-btn:hover, .ui-btn:focus {
+	color: #333;
+	background: #fcfcfc;
+	border-color: #ccc;
+}
+
+.ui-btn-success {
+	color: #fff;
+	background: #4b0;
+	border-color: #3da900;
+}
+
+.ui-btn-success:hover, .ui-btn-success:focus {
+	color: #fff;
+	background: #49c800;
+	border-color: #399f00;
+}
+
+.ui-btn-blue {
+	color: #fff;
+	border-radius: 2px;
+	background: #0077dd;
+}
+
+.ui-btn-blue:hover, .ui-btn-blue:focus {
+	background: #0e69b8;
+	color: #fff;
+}
+
+/*---------------------------------------- 按钮样式 ]] ----------------------------------------*/
+
+/*---------------------------------------- 下拉对话框样式 [[ ----------------------------------------*/
+.ui-dropdown-menu {
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 4px;
+	min-width: 110px;
+	margin: 0;
+}
+
+.ui-dropdown-menu > li {
+	width: 100%;
+}
+
+.ui-dropdown-menu > li:hover,
+.ui-dropdown-menu > li:focus {
+	background-color: #f0f0f0;
+}
+
+.ui-dropdown-menu > li > a {
+	display: block;
+	padding: 10px 20px;
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+/*---------------------------------------- 下拉通知框样式 ]] ----------------------------------------*/
+
+/*---------------------------------------- 左侧菜单 [[ ----------------------------------------*/
+.ui-sidebar {
+	display: inline-block;
+	width: 110px;
+}
+
+.ui-sidebar > .nav > h4 {
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #a0a0a0;
+}
+
+.ui-sidebar > .nav li.active > a {
+	color: #f60;
+}
+
+.ui-sidebar > .nav li.active > a > i {
+	display: inline-block;
+	content: ' ';
+	width: 0;
+	height: 0;
+	margin: -2px 0 0 5px;
+	border-style: solid;
+	border-width: 3px 0 3px 5px;
+	border-color: transparent transparent transparent #f60;
+	vertical-align: middle;
+}
+
+.ui-sidebar > .nav a {
+	display: block;
+	font-size: 14px;
+	line-height: 36px;
+	color: #333;
+}
+
+.ui-sidebar > .nav a:hover {
+	color: #f60;
+}
+
+.ui-sidebar > .nav .ui-btn {
+	text-align: center;
+	font-size: 14px;
+	height: 26px;
+	line-height: 26px;
+	color: #fff;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.ui-sidebar > .nav .ui-btn:hover {
+	color: #fff;
+}
+
+/*---------------------------------------- 左侧菜单 ]] ----------------------------------------*/
+
+/*---------------------------------------- 右侧主内容 [[ ----------------------------------------*/
+.ui-page {
+	float: right;
+	width: 850px;
+}
+
+/*---------------------------------------- 右侧主内容 ]] ----------------------------------------*/
+
+/*---------------------------------------- 一行的相对位置样式 [[ ----------------------------------------*/
+.ui-inline {
+	width: 100%;
+	font-size: 0;
+	overflow: hidden;
+}
+
+.ui-inline > .ui-inline-item {
+	display: inline-block;
+	font-size: 14px;
+
+}
+
+.ui-inline > .ui-left {
+	float: left;
+}
+
+.ui-inline > .ui-right {
+	float: right;
+}
+
+/*---------------------------------------- 一行的相对位置样式 ]] ----------------------------------------*/
+
+/*---------------------------------------- 搜索框 [[ ----------------------------------------*/
+.ui-search-box {
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	z-index: 10;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.ui-search-box .txt {
+	width: 100px;
+	height: 20px;
+	padding: 5px 5px 5px 20px;
+	font-size: 12px;
+	line-height: 16px;
+	border: 1px solid #ddd;
+	background: #fff url("/resource/img/ico-search.png") 4px center no-repeat;
+	border-radius: 2px;
+	-webkit-transition: width linear 0.25s;
+	-moz-transition: width linear 0.25s;
+	transition: width linear 0.25s;
+}
+
+.ui-search-box .txt:focus {
+	border-color: #aaa;
+	outline: none;
+	width: 204px;
+}
+
+/*---------------------------------------- 搜索框 ]] ----------------------------------------*/
+
+/*---------------------------------------- 表格 [[ ----------------------------------------*/
+/*-------------------- 原生表格 [[ --------------------*/
+table.ui-table1 {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+table.ui-table1 th {
+	background: #f8f8f8;
+	font-weight: normal;
+}
+
+table.ui-table1 tr > th {
+	border-top: 1px solid #e5e5e5;
+}
+
+table.ui-table1 tr > th,
+table.ui-table1 tr > td {
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+	line-height: 1.4;
+	word-break: break-all;
+}
+
+table.ui-table1 tr > th.border-left,
+table.ui-table1 tr > td.border-left {
+	border-left: 1px solid #e5e5e5;
+}
+
+table.ui-table1 tr > th.border-right,
+table.ui-table1 tr > td.border-right {
+	border-right: 1px solid #e5e5e5;
+}
+
+.ui-table1 tr > .ui-table1-empty {
+	height: 100px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 16px;
+	color: #a1a1a1;
+}
+
+.ui-table1-hover tr:hover {
+	background: #f8f8f8;
+}
+
+.ui-table1-hover .tr-nohover:hover {
+	background: none;
+}
+
+/*-------------------- 原生表格 ]] --------------------*/
+
+/*---------------------------------------- 表格 ]] ----------------------------------------*/
+
+.ui-divider {
+	margin: 0 10px;
+}

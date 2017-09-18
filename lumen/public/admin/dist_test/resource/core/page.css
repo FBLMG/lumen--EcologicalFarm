@@ -1,0 +1,56 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.page-root {
+	display: none;
+	overflow: auto;
+	background: #f0f0f0;
+	z-index: 2;
+}
+
+.page-node {
+	position: relative;
+	top: 0;
+}
+
+.page-current {
+	display: block;
+}
+
+.page-model {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0);
+	z-index: 1000;
+	display: none;
+}
+
+/* 页面动画 ============================ */
+
+.page-init > .page-ani-init {
+	-webkit-animation: page-ani-init .5s 0s ease both;
+	-moz-animation: page-ani-init .5s 0s ease both;
+}
+
+@-webkit-keyframes page-ani-init {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes page-ani-init {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

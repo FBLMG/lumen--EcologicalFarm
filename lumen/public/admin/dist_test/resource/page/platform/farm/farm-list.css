@@ -1,0 +1,7 @@
+#layout-app .page-view .page-nav {
+	font-size: 12px;
+}
+#layout-app .page-view .page-nav .left .item{
+	display: inline-block;
+	margin: 0 5px;
+}

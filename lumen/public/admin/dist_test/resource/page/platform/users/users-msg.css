@@ -1,0 +1,32 @@
+#users-msg .ui-textarea {
+    width: 478px;
+    height: 60px;
+}
+
+#users-msg .select-box {
+    overflow: hidden;
+}
+
+#users-msg .category-msg {
+    margin-bottom: 10px;
+    line-height: 25px;
+    color: #f00;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#users-msg .select-box .box {
+    float: left;
+}
+
+#users-msg .select-box .box span {
+    display: block;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#users-msg .select-box .box2 {
+    margin-left: 30px;
+}
